@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content=" قياس الصحه قياس كميه الماء قياس النظر قياس القلق" name="description">
+    <meta content=" قياس صحه النظر قلق الماء" name="keywords">
+    <title> المقياس الصحي </title>
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/790e1ff4cf.css" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    </link>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- Default stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="anxiety-header">
+
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-nav">
+            <a class="navbar-brand animated pulse" href="index.html">
+                <img src="assest/logo.svg" alt="Logo" id="home">
+            </a>
+            <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" style="color: #ffffff;"></i>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav m-lg-5 d-lg-flex gap-lg-5">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" data-item="Home">الرئيسية</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-item="who">من نحن؟</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="hrader-info">
+            <h1 class="">هل تعاني من القلق؟</h1>
+            <p>عطي هذا الاختبار نبذة عن حالتك النفسية و درجة القلق عندك و لا يعد وسيلة تشخيص دقيقة فلابد من الرجوع
+                للطبيب لتشخيصك​ كم عانيت من المشاكل التالية خلال الاسبوعين الماضيين:​​
+            </p>
+        </div>
+
+    </header>
+
+    <div class="anxiety-test">
+        <div class="conatiner">
+            <form id="form" name="form">
+                <div id="controls">
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <p>
+                                <h4>1. الشعور بالغضب أو القلق أو الانفعال الشديد </h4>
+                                <span>
+                                    <label>أبداً</label>
+                                    <input type="radio" name="Q1" id="never" value="never" checked="true">
+
+                                </span>
+
+                                <span> <label> بعض الايام </label>
+                                    <input type="radio" name="Q1" id="Sometimes" value="Sometimes"></span>
+
+                                <span>
+                                    <label>اكثر من نصف الأيام </label>
+                                    <input type="radio" name="Q1" id="moreSometimes" value="moreSometimes">
+                                </span>
+
+                                <span>
+                                    <label>كل يوم تقريبا </label>
+                                    <input type="radio" name="Q1" id="Always" value="Always">
+                                </span>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <p>
+                                <h4>2.عدم القدرة على إنهاء القلق أو التحكم فيه</h4>
+                                <span>
+                                    <label>أبداً</label>
+                                    <input type="radio" name="Q2" id="never" value="never" checked="true">
+
+                                </span>
+
+                                <span> <label> بعض الايام </label>
+                                    <input type="radio" name="Q2" id="Sometimes" value="Sometimes"></span>
+
+                                <span>
+                                    <label>اكثر من نصف الأيام </label>
+                                    <input type="radio" name="Q2" id="moreSometimes" value="moreSometimes">
+                                </span>
+
+                                <span>
+                                    <label>كل يوم تقريبا </label>
+                                    <input type="radio" name="Q2" id="Always" value="Always">
+                                </span>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <p>
+                                <h4>3. القلق المفرط حول كل شيء</h4>
+                                <span>
+                                    <label>أبداً</label>
+                                    <input type="radio" name="Q3" id="never" value="never" checked="true">
+
+                                </span>
+
+                                <span> <label> بعض الايام </label>
+                                    <input type="radio" name="Q3" id="Sometimes" value="Sometimes"></span>
+
+                                <span>
+                                    <label>اكثر من نصف الأيام </label>
+                                    <input type="radio" name="Q3" id="moreSometimes" value="moreSometimes">
+                                </span>
+
+                                <span>
+                                    <label>كل يوم تقريبا </label>
+                                    <input type="radio" name="Q3" id="Always" value="Always">
+                                </span>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <p>
+                                <h4>4. الصعوبة في الاسترخاء</h4>
+                                <span>
+                                    <label>أبداً</label>
+                                    <input type="radio" name="Q4" id="never" value="never" checked="true">
+
+                                </span>
+
+                                <span> <label> بعض الايام </label>
+                                    <input type="radio" name="Q4" id="Sometimes" value="Sometimes"></span>
+
+                                <span>
+                                    <label>اكثر من نصف الأيام </label>
+                                    <input type="radio" name="Q4" id="moreSometimes" value="moreSometimes">
+                                </span>
+
+                                <span>
+                                    <label>كل يوم تقريبا </label>
+                                    <input type="radio" name="Q4" id="Always" value="Always">
+                                </span>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <p>
+                                <h4>5. شدة الاضطراب لدرجة صعوبة البقاء في هدوء</h4>
+                                <span>
+                                    <label>أبداً</label>
+                                    <input type="radio" name="Q5" id="never" value="never" checked="true">
+
+                                </span>
+
+                                <span> <label> بعض الايام </label>
+                                    <input type="radio" name="Q5" id="Sometimes" value="Sometimes"></span>
+
+                                <span>
+                                    <label>اكثر من نصف الأيام </label>
+                                    <input type="radio" name="Q5" id="moreSometimes" value="moreSometimes">
+                                </span>
+
+                                <span>
+                                    <label>كل يوم تقريبا </label>
+                                    <input type="radio" name="Q5" id="Always" value="Always">
+                                </span>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <p>
+                                <h4>6.السرعة في الانزعاج أو الانفعال</h4>
+                                <span>
+                                    <label>أبداً</label>
+                                    <input type="radio" name="Q6" id="never" value="never" checked="true">
+
+                                </span>
+
+                                <span> <label> بعض الايام </label>
+                                    <input type="radio" name="Q6" id="Sometimes" value="Sometimes"></span>
+
+                                <span>
+                                    <label>اكثر من نصف الأيام </label>
+                                    <input type="radio" name="Q6" id="moreSometimes" value="moreSometimes">
+                                </span>
+
+                                <span>
+                                    <label>كل يوم تقريبا </label>
+                                    <input type="radio" name="Q6" id="Always" value="Always">
+                                </span>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <p>
+                                <h4>7.الشعور بالخوف كما لو أن شيئا فظيعاً قد يـحدث</h4>
+                                <span>
+                                    <label>أبداً</label>
+                                    <input type="radio" name="Q7" id="never" value="never" checked="true">
+
+                                </span>
+
+                                <span> <label> بعض الايام </label>
+                                    <input type="radio" name="Q7" id="Sometimes" value="Sometimes"></span>
+
+                                <span>
+                                    <label>اكثر من نصف الأيام </label>
+                                    <input type="radio" name="Q7" id="moreSometimes" value="moreSometimes">
+                                </span>
+
+                                <span>
+                                    <label>كل يوم تقريبا </label>
+                                    <input type="radio" name="Q7" id="Always" value="Always">
+                                </span>
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <p>
+                        <input type="button" name="Calculate" id="calculate" value="فحص" />
+                    </p>
+                    <p id="result"></p>
+                    <div id="comment"></div>
+
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
+    <script src="anxiety.js"></script>
+</body>
+
+
+
+</html>
