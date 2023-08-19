@@ -213,4 +213,95 @@ margin-top: 200px;
 
 
 
+.water-test form {
+
+	margin:0 auto 10% auto;
+	padding:30px;
+	width:400px;
+	height:auto;
+	overflow:hidden;
+	background:white;
+	border-radius:10px;
+border: 3px solid #181363;
+
+ 
+}
+
+.water-test form label {
+	font-size:18px;
+	color:rgb(41, 40, 40);
+	cursor:pointer;
+}
+
+.water-test form label,
+.water-test form input {
+	float:right;
+	clear:both;
+}
+
+.water-test form input {
+	margin:15px 0;
+	padding:15px 10px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+    -webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+.water-test form input[type=text]:focus,
+.water-test form input[type="password"]:focus {
+	border-color:rgb(72, 106, 168);
+}
+
+.water-test form button {
+	padding:15px 50px;
+	width:auto;
+	background:#060243;
+	border:none;
+	color:white;
+	cursor:pointer;
+	display:inline-block;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+.water-test form button:hover {
+	opacity:0.8;
+}
+
+.water-test form button:active {
+	opacity:0.4;
+}
+
+.water-header{
+   display: flex;
+   justify-content: center;
+align-items: center;
+gap: 100px;
+   width: 100%;
+   height:40vh;
+ overflow: hidden;
+}
+
+.water-header h1{
+   margin-top: 150px;
+}
+
+
+
+
+
+
 
