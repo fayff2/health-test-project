@@ -11,14 +11,16 @@ text-decoration: none;
 
 
 }
+a{
+   text-decoration: none;
+}
 
 .index-header{
     display: flex;
     justify-content: center;
 align-items: center;
-gap: 100px;
     width: 100%;
-    height:100vh;
+    height: 100vh;
   overflow: hidden;
       }
 
@@ -32,6 +34,7 @@ video { object-fit:fill; }
     bottom: 0;
     left: 0;
     overflow: hidden;
+    z-index: -100;
 
 }
 
@@ -44,11 +47,14 @@ video { object-fit:fill; }
 }
 
 .navbar {
-
+   display: flex;
+   justify-content: space-between;
+   background-color: rgba(0, 0, 0, 0.756) !important;
      color: #ffff;
 }
 
  .navbar-nav .nav-link{
+   font-size: 16px;
 
  color: #ffff;
    
@@ -58,45 +64,61 @@ video { object-fit:fill; }
     color: #ffff;
  }
 
- /* .navbar-nav {
-
-  
+ /* .navbar-brand img{
+   
  } */
 
 
- .header-info{
+.header-info{
+   margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    background-color: rgb(0, 0, 0, 0.8);
-    opacity: 0.9;
-    height: 60vh;
+    width: 100%;
+     
+
+
  
  }
 
- .header-info h1{
+ .index-header .header-info h1{
     color: #ffff;
-    z-index: 1;
- }
- /* .header-info .card-group{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- } */
- .header-info .card{
-    background-color: #ffff;
-    z-index: 1;
-    order: 1;
-  
-    border: 2px solid black;
-    border-radius: 12px !important;
+   
  }
 
+
+ .header-info .container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   gap: 20px;
+}
+
+
+ .header-info .card{
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+   height: 300px;
+    background-color: #ffff;
+    border-radius: 12px !important;
+    
+ }
+
+ .header-info .card:hover{
+background-color: #969696;
+cursor: pointer;
+transition: all 0.3s ease-out;
+ }
+ 
+
  .header-info .card img{
-    width: 100%;
-    width: 200px;
+    width: 100px;
  }
  .header-info .card h4{
     width: 100%;
@@ -298,6 +320,173 @@ gap: 100px;
 .water-header h1{
    margin-top: 150px;
 }
+
+/* Small screen */
+
+@media(max-width: 576px){
+   .index-header .header-info{
+      margin-top: 100px;
+   }
+
+   .index-header .header-info h1{
+      color: #ffff;
+      font-size: 20px;
+     
+   }
+   
+   .header-info .card{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      height: 110px;
+      background-color: #ffff;
+   
+    
+     
+   }
+   .header-info .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center ;
+      gap: 20px;
+      width: 60%;
+   }
+
+
+   .header-info .card h4{
+
+font-size: 12px;
+   }
+
+  
+   .header-info .card img{
+   
+      width: 50px;
+     height: 50px;
+   }
+  
+
+}
+
+/* Medium screen */
+@media (min-width: 576px) and (max-width: 768px) {
+   .index-header .header-info{
+      margin-top: 100px;
+   }
+
+   .index-header .header-info h1{
+      color: #ffff;
+      font-size: 20px;
+     
+   }
+   .header-info .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      gap: 20px;
+   }
+   
+   .header-info .card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+width: 300px;
+height: 200px;
+      background-color: #ffff;
+   
+    
+     
+   }
+   .header-info .card h4{
+
+font-size: 12px;
+   }
+
+  
+   .header-info .card img{
+   
+      width: 50px;
+     height: 50px;
+   }
+  
+
+}
+
+/* x Large screen */
+@media ( min-width: 1920px){
+
+   .navbar-brand img{
+   width: 200px;
+   height: 200px;
+    }
+
+  
+ 
+  .navbar-nav .nav-link{
+ font-size: 42px;
+  color: #ffff;
+    
+  }
+ 
+  
+
+
+   /* .index-header .header-info{
+      margin-top: 100px;
+   } */
+
+   /* .header-info{
+      
+   } */
+   .index-header .header-info h1{
+      color: #ffff;
+      font-size: 64px;
+     
+   }
+   .header-info .container{
+    
+      border: 2px solid red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      gap: 60px;
+   }
+   
+   .header-info .card{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+width: 700px;
+height: 600px;
+      background-color: #ffff;
+   
+    
+     
+   }
+   .header-info .card h4{
+
+font-size: 24px;
+   }
+
+  
+   .header-info .card img{
+   
+      width: 100px;
+     height: 100px;
+   }
+}
+
+
+
 
 
 
