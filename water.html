@@ -27,29 +27,41 @@
 
     <header class="water-header">
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg fixed-top bg-nav ">
-            <a class="navbar-brand animated pulse" href="index.html">
-                <img src="assest/logo.svg" alt="Logo" id="home">
-            </a>
-            <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <nav class="navbar navbar-expand-lg fixed-top bg-nav">
+            <div class="navbar-brand animated pulse">
+                <img src="assest/logo.svg" alt="Logo" id="logo" class="logo">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars" style="color: #ffffff;"></i>
             </button>
             <div class="collapse navbar-collapse text-center" id="navbarNav">
-                <ul class="navbar-nav m-lg-5 d-lg-flex gap-lg-5">
+                <ul class="navbar-nav  d-lg-flex gap-lg-5 mx-lg-5">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html" data-item="Home">الرئيسية</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="" data-item="who">من نحن؟</a>
+                        <a class="nav-link" href="" data-item="who">نبذه </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-item="contact"> تواصل معنا</a>
                     </li>
 
                 </ul>
             </div>
         </nav>
+        <div class="mx-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"></li> اختبار معدل الماء
+                </ol>
+            </nav>
+        </div>
 
-        <h1 class="text-center">حساب كمية الماء التي يحتاجها الجسم</h1>
+        <h1 class="text-center">حساب معدل الماء التي يحتاجه الجسم</h1>
 
 
     </header>

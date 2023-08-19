@@ -30,28 +30,41 @@
 
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg fixed-top bg-nav">
-            <a class="navbar-brand animated pulse" href="index.html">
-                <img src="assest/logo.svg" alt="Logo" id="home">
-            </a>
-            <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            <div class="navbar-brand animated pulse">
+                <img src="assest/logo.svg" alt="Logo" id="logo" class="logo">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars" style="color: #ffffff;"></i>
             </button>
             <div class="collapse navbar-collapse text-center" id="navbarNav">
-                <ul class="navbar-nav m-lg-5 d-lg-flex gap-lg-5">
+                <ul class="navbar-nav  d-lg-flex gap-lg-5 mx-lg-5">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html" data-item="Home">الرئيسية</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="" data-item="who">من نحن؟</a>
+                        <a class="nav-link" href="" data-item="who">نبذه </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-item="contact"> تواصل معنا</a>
                     </li>
 
                 </ul>
             </div>
         </nav>
-        <div class="hrader-info">
-            <h1 class="">هل تعاني من القلق؟</h1>
+        <div class="mx-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"></li> اختبار القلق
+                </ol>
+            </nav>
+        </div>
+
+        <div class="header-info">
+            <h1>هل تعاني من القلق؟</h1>
             <p>عطي هذا الاختبار نبذة عن حالتك النفسية و درجة القلق عندك و لا يعد وسيلة تشخيص دقيقة فلابد من الرجوع
                 للطبيب لتشخيصك​ كم عانيت من المشاكل التالية خلال الاسبوعين الماضيين:​​
             </p>
@@ -281,8 +294,14 @@
                     <p>
                         <input type="button" name="Calculate" id="calculate" value="فحص" />
                     </p>
-                    <p id="result"></p>
-                    <div id="comment"></div>
+                    <div class="row mb-4">
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <p id="result"></p>
+                                <p id="comment"></p>
+                            </div>
+                        </div>
+                    </div>
 
             </form>
         </div>

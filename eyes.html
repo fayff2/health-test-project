@@ -27,34 +27,44 @@
 
     <header class="eyes-header">
         <!-- NAVBAR -->
-        <div class="">
-            <nav class="navbar navbar-expand-lg fixed-top bg-nav">
-                <a class="navbar-brand animated pulse" href="index.html">
-                    <img src="assest/logo.svg" alt="Logo" id="home">
-                </a>
-                <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars" style="color: #ffffff;"></i>
-                </button>
-                <div class="collapse navbar-collapse text-center" id="navbarNav">
-                    <ul class="navbar-nav m-lg-5 d-lg-flex gap-lg-5">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html" data-item="Home">الرئيسية</a>
-                        </li>
+        <nav class="navbar navbar-expand-lg fixed-top bg-nav">
+            <div class="navbar-brand animated pulse">
+                <img src="assest/logo.svg" alt="Logo" id="logo" class="logo">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" style="color: #ffffff;"></i>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav  d-lg-flex gap-lg-5 mx-lg-5">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" data-item="Home">الرئيسية</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="" data-item="who">من نحن؟</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-item="who">نبذه </a>
+                    </li>
 
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-item="contact"> تواصل معنا</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="mx-5">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">الرئيسية</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"></li> اختبار القلق
+                </ol>
             </nav>
         </div>
 
-        <div class="eyes-info m-5">
-            <h1 class="my-5">اختبار النظر</h1>
+        <div class="eyes-info">
+            <h1 class="">اختبار النظر</h1>
             <div class="ayes-instructions">
-                <h4 class="my-5">اختبار حدة البصر (عن طريق مخطط سنيلين)</h4>
+                <h6 class="">اختبار حدة البصر (عن طريق مخطط سنيلين)</h6>
                 <p>تعليمات قياس النظر:</p>
                 <span>
                     <p>- تأكد من أن إضاءة الغرفة مناسبة، واضبط درجة سطوع الهاتف بحيث تكون 100%.</p>
@@ -70,7 +80,7 @@
     <div class="eyes-test">
 
         <div class="container s-imges">
-            <h4>حدِّد السطر الأدنى الذي يتمكن المريض من قراءته على نحوٍ صائب.</h4>
+            <h4 class="my-5">حدِّد السطر الأدنى الذي يتمكن المريض من قراءته على نحوٍ صائب.</h4>
             <div class="row active" data-number="1">
                 <div class="col-sm-12">
                     <div class="card">
