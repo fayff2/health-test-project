@@ -50,7 +50,7 @@ video { object-fit:fill; }
 .navbar {
    display: flex;
    justify-content: space-between;
-   background-color: rgba(0, 0, 0, 0.756) !important;
+   background-color: #8fbbcc !important;
      color: #ffff;
 }
 
